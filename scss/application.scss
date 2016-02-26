@@ -1,0 +1,26 @@
+@import "libraries/bourbon/bourbon.scss";
+@import "libraries/neat/neat.scss";
+@import "utils/_index.scss";
+@import "components/_index.scss";
+@import "layout/_index.scss";
+@import "base/_index.scss";
+
+nav {
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    ul {
+      overflow: auto;
+      padding: 2rem 0;
+      width: 100%;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 0 1rem;
+    }
+}
+a {
+  font-size: 0.9rem;
+  color: #ffb618;
+}
