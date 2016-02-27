@@ -47,9 +47,7 @@ header {
       display: inline-block;
       padding: 0 0.5rem;
       a {
-        font-size: 0.7rem;
-        font-weight: 700;
-        letter-spacing: 0.02rem;
+        @include sm-head;
       }
     }
     .category {
@@ -106,6 +104,17 @@ aside {
     border-bottom: 1px solid #d6d6d6;
     img {
       width: 100%;
+    }
+    h6 {
+      @include sm-head;
+      padding: 0 0 0.5rem 0;
+    }
+    p {
+      font-size: 0.9rem;
+      font-weight: lighter;
+    }
+    span {
+      font-size: 0.5rem
     }
   }
 }

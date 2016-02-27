@@ -32,3 +32,8 @@
   }
 }
 
+@mixin sm-head {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+}
