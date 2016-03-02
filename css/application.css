@@ -105,6 +105,9 @@ a {
 ul {
   list-style: none; }
 
+hr {
+  background-color: #ccd3d7; }
+
 nav {
   background: #fff;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -201,7 +204,7 @@ aside {
     aside .entry span {
       font-size: 0.5rem; }
 
-footer p {
+footer .join p {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.02rem;
@@ -211,8 +214,11 @@ footer p {
   padding: 1rem;
   background-color: #ffb618;
   color: black; }
+footer .input-head li:first-child {
+  color: black; }
 footer .input-head li {
-  display: inline-block; }
+  display: inline-block;
+  color: #ccd3d7; }
 footer .input-head li:last-child {
   float: right; }
 footer .input-head hr:first-of-type {
@@ -226,15 +232,20 @@ footer .input-head hr:last-of-type {
   border: none;
   width: 90%;
   height: 2px;
-  color: gray;
-  background-color: gray;
+  background-color: #ccd3d7;
   float: right; }
 footer .input-head form img {
   float: left; }
 footer .input-head form textarea {
   float: right;
   width: 94%;
-  height: 10em;
-  border: 2px solid #c6c6c6; }
+  height: 3rem;
+  border: 2px solid #ccd3d7;
+  border-radius: 0.4rem; }
+footer .input-head p {
+  color: #a6a9ab;
+  font-size: 1rem;
+  margin: 8rem 0 0 0;
+  text-align: center; }
 
 /*# sourceMappingURL=application.css.map */

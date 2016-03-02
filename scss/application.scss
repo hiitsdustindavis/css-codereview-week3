@@ -122,8 +122,7 @@ aside {
   }
 }
 footer {
-  p {
-
+  .join p {
     @include sm-head;
     width: 10rem;
     // height: 6em;
@@ -134,8 +133,12 @@ footer {
     color: black;
   }
   .input-head {
+    li:first-child {
+      color: black;
+    }
     li{
       display: inline-block;
+      color: $color-pale-gray;
     }
     li:last-child {
       float: right;
@@ -152,8 +155,7 @@ footer {
       border: none;
       width: 90%;
       height: 2px;
-      color: gray;
-      background-color: gray;
+      background-color: $color-pale-gray;
       float: right;
     }
     form {
@@ -163,9 +165,16 @@ footer {
       textarea {
         float: right;
         width:94%;
-        height: 10em;
+        height: 3rem;
         border: 2px solid $color-pale-gray;
+        border-radius: 0.4rem;
       }
+    }
+    p {
+      color: #a6a9ab;
+      font-size: 1rem;
+      margin: 8rem 0 0 0;
+      text-align: center;
     }
   }
 }
