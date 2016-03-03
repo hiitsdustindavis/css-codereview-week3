@@ -9,6 +9,7 @@ body {
 a {
   font-size: 0.9rem;
   color: black;
+  @include transition-duration(0.3s);
   &:hover {
     color: $yellow-prim;
     text-decoration: none;
@@ -25,7 +26,7 @@ hr {
   font-style: italic;
   font-family: serif;
   font-size: 2rem;
-  line-height: 2.2rem; 
+  line-height: 2.2rem;
   color: #999999;
   margin: 2rem 0;
 }
