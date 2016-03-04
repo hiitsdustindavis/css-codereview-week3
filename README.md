@@ -14,7 +14,7 @@ Page is responsive using Sass-style media queries (at least one breakpoint)
 
 ## Code Example
 ####Preview Link Below
-http://hiitsdustindavis.github.io/css_codereview_week3/
+http://hiitsdustindavis.github.io/css-codereview-week3/
 
 ## Technologies Used
 HTML CSS Sass Bourbon
