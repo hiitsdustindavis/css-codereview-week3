@@ -13,7 +13,9 @@ At least one @mixin of your own
 Page is responsive using Sass-style media queries (at least one breakpoint)
 
 ## Code Example
-####Preview Link Below
+####Original Nautil.us blog post:
+http://nautil.us/blog/heres-why-people-are-obsessed-with-mugshot-hotties
+####Preview link:
 http://hiitsdustindavis.github.io/css-codereview-week3/
 
 ## Technologies Used
